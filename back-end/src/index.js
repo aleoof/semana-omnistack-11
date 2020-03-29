@@ -4,7 +4,9 @@ const routes = require('./routes')
 
 const app = express();
 app.use(cors())
-//'origin':'meuapp.com,
+
+//{'origin':'meuapp.com},
+
 app.use(express.json())
 
 app.use(routes)
